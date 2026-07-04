@@ -53,7 +53,7 @@ export default function Bio() {
                 <p className="text-sm text-muted-foreground">Unico Studio</p>
               </div>
               <span className="text-xs font-mono text-muted-foreground pt-1">
-                Aug 2024 — Present
+                Jul 2025 — Present
               </span>
             </div>
             <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">

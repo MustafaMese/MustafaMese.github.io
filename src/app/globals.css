@@ -1,0 +1,164 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+  
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  /* Warm Nordic Canvas & Text */
+  --background: #F7F6F3;
+  --foreground: #2F3437;
+  
+  --card: #FFFFFF;
+  --card-foreground: #2F3437;
+  
+  --popover: #FFFFFF;
+  --popover-foreground: #2F3437;
+  
+  --primary: #1E2022;
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #F1F5F9;
+  --secondary-foreground: #1E2022;
+  
+  --muted: #F9F9F8;
+  --muted-foreground: #787774;
+  
+  /* Pastels for badges / tags */
+  --accent: #EDF3EC; /* Sage green */
+  --accent-foreground: #346538;
+  
+  --destructive: #FDEBEC; /* Pale Red */
+  --destructive-foreground: #9F2F2D;
+  
+  --border: #EAEAEA;
+  --input: #EAEAEA;
+  --ring: #787774;
+  
+  --radius: 0.375rem;
+}
+
+.dark {
+  --background: #191B1C;
+  --foreground: #E3E3E2;
+  
+  --card: #202223;
+  --card-foreground: #E3E3E2;
+  
+  --popover: #202223;
+  --popover-foreground: #E3E3E2;
+  
+  --primary: #E3E3E2;
+  --primary-foreground: #191B1C;
+  
+  --secondary: #2C2E2F;
+  --secondary-foreground: #E3E3E2;
+  
+  --muted: #202223;
+  --muted-foreground: #A1A09E;
+  
+  --accent: #243527; /* Dark Sage */
+  --accent-foreground: #A9D1B1;
+  
+  --border: #2D3031;
+  --input: #2D3031;
+  --ring: #A1A09E;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-200;
+  }
+  
+  /* Custom Focus Ring Styles */
+  a:focus-visible, button:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background rounded;
+  }
+
+  /* Custom selection color matching Warm Nordic Sage */
+  ::selection {
+    background-color: #EDF3EC;
+    color: #346538;
+  }
+
+  .dark ::selection {
+    background-color: #243527;
+    color: #A9D1B1;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.delay-1 {
+  animation-delay: 80ms;
+}
+
+.delay-2 {
+  animation-delay: 160ms;
+}
+
+.delay-3 {
+  animation-delay: 240ms;
+}
+
+.delay-4 {
+  animation-delay: 320ms;
+}

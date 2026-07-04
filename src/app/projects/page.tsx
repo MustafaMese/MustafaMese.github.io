@@ -65,64 +65,10 @@ export default function Projects() {
             <li>Programmed advanced pathfinding and aggro behaviors for bosses and mobs to ensure challenging gameplay loops.</li>
           </ul>
         </div>
-
-        {/* Project 3: Tetris Match-3 Game */}
-        <div className="space-y-2 group animate-fade-in delay-3">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-            <h3 className="text-lg font-serif font-medium text-foreground">
-              <a
-                href="https://github.com/MustafaMese/TetrisMatch3Game"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
-              >
-                Tetris Match-3 Game
-              </a>
-            </h3>
-            <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent text-accent-foreground w-fit">
-              Unity / C# / Shaders
-            </span>
-          </div>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            A hybrid puzzle game blending Tetris block placements with adjacent match-3 color clearing.
-          </p>
-          <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-            <li>Designed grid parsing and connection search algorithms to evaluate blocks in multiple directions.</li>
-            <li>Created custom visual shaders (dissolving, flashing, grid border lines) using ShaderLab for smooth player feedback.</li>
-            <li>Optimized level loops and block collision detection for clean and responsive user control.</li>
-          </ul>
-        </div>
-
-        {/* Project 4: Tower Defence Game */}
-        <div className="space-y-2 group animate-fade-in delay-4">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-            <h3 className="text-lg font-serif font-medium text-foreground">
-              <a
-                href="https://github.com/MustafaMese/TowerDefenceGame"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
-              >
-                Tower Defence Game
-              </a>
-            </h3>
-            <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent text-accent-foreground w-fit">
-              Unity / C# / Design Patterns
-            </span>
-          </div>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            A clean architecture project designed to showcase decoupled, production-ready C# design patterns in Unity:
-          </p>
-          <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-            <li><strong>Object Pooling</strong>: Implemented memory-friendly object pools for projectiles and particle gameobjects.</li>
-            <li><strong>Factory Pattern</strong>: Used specialized factories for producing varying types of turrets and enemy waves.</li>
-            <li><strong>Observer Pattern</strong>: Structured lightweight event dispatching for wave states and player health systems.</li>
-          </ul>
-        </div>
       </section>
 
       {/* Return Home */}
-      <section className="pt-6 border-t border-border text-sm font-mono animate-fade-in delay-4">
+      <section className="pt-6 border-t border-border text-sm font-mono animate-fade-in delay-2">
         <Link
           href="/"
           className="text-foreground hover:text-muted-foreground transition-colors duration-150 flex items-center space-x-1"

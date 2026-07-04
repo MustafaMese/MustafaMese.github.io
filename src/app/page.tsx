@@ -14,29 +14,24 @@ export default function Home() {
           </span>
         </div>
         <p className="text-sm font-mono text-muted-foreground">
-          game developer / architect / optimizer
+          game developer / architect
         </p>
       </section>
 
       {/* Bio Section */}
       <section className="prose prose-neutral dark:prose-invert animate-fade-in delay-1">
         <p className="text-base leading-relaxed text-foreground/90">
-          I am a software engineer specializing in game architecture, performance optimization, 
-          and system design within the Unity Engine (C#). My work focuses on crafting modular, 
-          scalable game systems, creating sophisticated AI simulation behaviors, and writing 
-          efficient ShaderLab effects.
-        </p>
-        <p className="text-base leading-relaxed text-foreground/90 mt-4">
-          Currently, I develop and optimize mobile games reaching millions of players at **Unico Studio**. 
-          Previously, I engineered tutorials and data systems at **SuperGears Games**, and designed 
-          the overall gameplay architecture for PC titles at **Midquest Games**.
+          I am a software engineer specializing in game architecture, gameplay systems, and 
+          code design within the Unity Engine (C#). My work focuses on crafting modular, scalable 
+          game architectures, designing sophisticated gameplay mechanics, and building stable systems 
+          for mobile and PC platforms.
         </p>
       </section>
 
       {/* Selected Projects */}
       <section className="space-y-4 pt-6 border-t border-border animate-fade-in delay-2">
         <h2 className="text-lg font-serif font-medium text-foreground">
-          Selected Projects & Code
+          Selected Projects
         </h2>
         <div className="grid gap-6 mt-4">
           <div className="group block space-y-1">
@@ -59,44 +54,14 @@ export default function Home() {
               Overrun Survivors
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A PC game developed during my tenure at Midquest Games. Designed the core game architecture, 
+              A commercial PC game developed during my tenure at Midquest Games. Designed the core game architecture, 
               built a robust dynamic spawn system, and engineered modular skill/ability trees.
-            </p>
-          </div>
-
-          <div className="group block space-y-1">
-            <a
-              href="https://github.com/MustafaMese/TetrisMatch3Game"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base font-medium text-foreground underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
-            >
-              Tetris Match-3 Game
-            </a>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              A hybrid puzzle game blending Tetris block-dropping with Match-3 alignments. 
-              Features grid search algorithms and custom ShaderLab dissolving and highlight shaders.
-            </p>
-          </div>
-
-          <div className="group block space-y-1">
-            <a
-              href="https://github.com/MustafaMese/TowerDefenceGame"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base font-medium text-foreground underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
-            >
-              Tower Defence Game
-            </a>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              An architectural sandbox showcasing clean design patterns in Unity (Object Pooling, 
-              Factory pattern, and Observer pattern for game state decoupling).
             </p>
           </div>
         </div>
       </section>
 
-      {/* Writing & Musings Link */}
+      {/* Career Timeline Link */}
       <section className="space-y-4 pt-6 border-t border-border animate-fade-in delay-3">
         <h2 className="text-lg font-serif font-medium text-foreground">
           Career Timeline
@@ -127,4 +92,3 @@ export default function Home() {
     </div>
   );
 }
-

@@ -17,19 +17,18 @@ export default function Bio() {
       <section className="space-y-6 text-base leading-relaxed text-foreground/90 font-sans animate-fade-in delay-1">
         <p>
           I am a Software Engineer based in Beykoz, İstanbul, with a strong focus on game development, 
-          architecture design, and optimization within the Unity Engine. My journey began during my 
+          architecture design, and system engineering within the Unity Engine. My journey began during my 
           Computer Engineering studies at **Istanbul University** (2016 - 2023), where I developed a 
-          passion for building clean, performant systems and AI simulations.
+          passion for building clean, modular systems and interactive gameplay loops.
         </p>
         <p>
           Throughout my career, I've had the opportunity to work across various scales of game development—from 
-          hypercasual prototypes to complete PC releases and high-scale casual mobile titles. I specialize in 
-          structuring decoupled codebase architectures, designing complex AI behaviors, and optimizing CPU, GPU, 
-          and memory profiles.
+          creative mobile puzzle games to commercial PC releases. I specialize in structuring decoupled 
+          codebase architectures, designing complex AI behaviors, and implementing fluid player mechanics.
         </p>
         <p>
           Currently, as a **Game Developer at Unico Studio**, I design and implement gameplay systems 
-          and performance profiles that serve millions of active players daily.
+          and features that serve millions of active players daily.
         </p>
       </section>
 
@@ -55,8 +54,8 @@ export default function Bio() {
             </div>
             <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
               <li>Develop and maintain high-scale casual and puzzle mobile games using Unity Engine (C#).</li>
-              <li>Profile and optimize memory usage, load times, and rendering performance (draw call batching, atlasing, and layout nesting reduction) for mobile devices.</li>
-              <li>Build reusable gameplay subsystems and UI frameworks to accelerate feature iteration and level design workflows.</li>
+              <li>Build reusable gameplay subsystems, modular UI frameworks, and custom tools to support content designers.</li>
+              <li>Collaborate closely with product managers and artists to iterate rapidly on new features and mechanics.</li>
             </ul>
           </div>
 
@@ -75,7 +74,7 @@ export default function Bio() {
             </div>
             <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
               <li>Implemented an interactive tutorial system, enhancing user onboarding and improving game accessibility for new players.</li>
-              <li>Created a custom data event system to manage in-game events and data flow, optimizing game performance and event tracking.</li>
+              <li>Created a custom data event system to manage in-game events and data flow, improving final gameplay loops.</li>
               <li>Identified and resolved various runtime bugs, enhancing game stability and final user experience.</li>
             </ul>
           </div>
@@ -94,14 +93,8 @@ export default function Bio() {
               </span>
             </div>
             <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>Worked on multiple hypercasual mobile game projects (November 2021 - August 2022).</li>
-              <li>Developed <strong>Overrun Survivors</strong>, a PC game (August 2022 - August 2023):</li>
-              <ul className="list-circle pl-5 text-xs text-muted-foreground space-y-1 mt-1">
-                <li>Designed software architecture: Created the overall software architecture, ensuring modularity and scalability.</li>
-                <li>Built dynamic spawn system: Developed a robust system for dynamically generating game elements, improving gameplay variety.</li>
-                <li>Implemented modular skill system: Designed a comprehensive skill system, allowing players to upgrade abilities and customize gameplay.</li>
-                <li>Designed boss and mob AI: Created sophisticated AI behavior for bosses and mobs, enhancing player engagement and difficulty scaling.</li>
-              </ul>
+              <li>Engineered gameplay loops, prototypes, and core mechanics for multiple mobile titles.</li>
+              <li>Led the software architecture design and gameplay engineering for <strong>Overrun Survivors</strong>, a commercial PC title, creating modular skill systems, custom spawn mechanisms, and boss AI.</li>
             </ul>
           </div>
 

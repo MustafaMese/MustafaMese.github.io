@@ -24,7 +24,7 @@ export default function Home() {
           I am a software engineer specializing in game architecture, gameplay systems, and 
           code design within the Unity Engine (C#). My work focuses on crafting modular, scalable 
           game architectures, designing sophisticated gameplay mechanics, and building stable systems 
-          for mobile and PC platforms.
+          for mobile and PC platforms. Currently, I am also focusing on exploring AI agents and computer graphics.
         </p>
       </section>
 

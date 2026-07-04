@@ -30,6 +30,10 @@ export default function Bio() {
           Currently, as a **Game Developer at Unico Studio**, I design and implement gameplay systems 
           and features that serve millions of active players daily.
         </p>
+        <p>
+          Outside of my professional work, my current areas of interest include researching <strong>AI agents</strong>, 
+          autonomous simulation environments, and <strong>computer graphics</strong>.
+        </p>
       </section>
 
       {/* Experience Timeline */}

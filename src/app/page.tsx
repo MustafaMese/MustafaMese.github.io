@@ -50,9 +50,14 @@ export default function Home() {
           </div>
 
           <div className="group block space-y-1">
-            <h3 className="text-base font-medium text-foreground">
+            <a
+              href="https://store.steampowered.com/app/2230770/Overrun_Survivors/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base font-medium text-foreground underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
+            >
               Overrun Survivors
-            </h3>
+            </a>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A commercial PC game developed during my tenure at Midquest Games. Designed the core game architecture, 
               built a robust dynamic spawn system, and engineered modular skill/ability trees.

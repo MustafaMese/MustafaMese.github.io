@@ -98,7 +98,7 @@ export default function Bio() {
             </div>
             <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
               <li>Engineered gameplay loops, prototypes, and core mechanics for multiple mobile titles.</li>
-              <li>Led the software architecture design and gameplay engineering for <strong>Overrun Survivors</strong>, a commercial PC title, creating modular skill systems, custom spawn mechanisms, and boss AI.</li>
+              <li>Led the software architecture design and gameplay engineering for <a href="https://store.steampowered.com/app/2230770/Overrun_Survivors/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] hover:decoration-foreground transition-colors duration-150"><strong>Overrun Survivors</strong></a>, a commercial PC title, creating modular skill systems, custom spawn mechanisms, and boss AI.</li>
             </ul>
           </div>
 

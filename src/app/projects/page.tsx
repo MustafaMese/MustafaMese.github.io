@@ -48,7 +48,14 @@ export default function Projects() {
         <div className="space-y-2 group animate-fade-in delay-2">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
             <h3 className="text-lg font-serif font-medium text-foreground">
-              Overrun Survivors
+              <a
+                href="https://store.steampowered.com/app/2230770/Overrun_Survivors/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-muted-foreground/35 decoration-1 underline-offset-[3px] group-hover:decoration-foreground transition-colors duration-150"
+              >
+                Overrun Survivors
+              </a>
             </h3>
             <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent text-accent-foreground w-fit">
               PC Game / C# / Architecture

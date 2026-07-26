@@ -21,7 +21,7 @@ export function Footer() {
           linkedin
         </a>
         <a
-          href="mailto:contact@mustafamese.com"
+          href="mailto:mustafamese099@gmail.com"
           className="hover:text-foreground transition-colors duration-150"
         >
           email
